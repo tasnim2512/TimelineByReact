@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Timeline from './Components/Timeline';
+import UserDetail from './Components/UserDetail';
+import Header from './Components/Header';
+import ThemeToggle from './Components/ThemeToggle';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <div className="flex justify-end p-4">
+        <ThemeToggle />
+      </div>
+      <Routes>
+        <Route path="/" element={<Timeline />} />
+        <Route path="/user/:userId" element={<UserDetail />} />
+      </Routes>
+    </Router>
   );
 }
 
