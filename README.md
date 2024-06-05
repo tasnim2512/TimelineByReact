@@ -1,70 +1,32 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Timeline app (React)
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm install`
+
+After installing npm run
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This will autometically load the page on [http://localhost:3000](http://localhost:3000) in browser.
+### Output
+## Timeline Page
+![alt text](./src/Images/Output1.png)
+## Commnets
+![alt text](./src/Images/Output2.png)
+## UserDetail
+![alt text](./src/Images/Output4.png)
+![alt text](./src/Images/Output5.png)
+## Dark mode
+![alt text](./src/Images/Output3.png)
+### Best practices for this project
+- **Component Structure** :  The code is organized into separate component files under the components and FormComponents directories to promote reusability and separation of concerns.React functional components are used for their simplicity and performance benefits over class-based components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Code Style**: Consistent naming conventions are used for components and functions, which improves readability and maintainability.Comments are included to explain the purpose of complex logic or important parts of the code, such as dynamic renderings and conditional styles.
 
-### `npm test`
+- **React Best Practices**: Props are used for dynamic data rendering Ensures that all elements created in a map function have a unique key prop to optimize React's rendering process.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Performance Optimization**: Implements conditional rendering within components to enhance UI performance and user experience.The application parses and manipulates JSON data efficiently, ensuring quick rendering and updates to show on the table.
+- **Development Practices**: Effective use of Git for version control, with clear commit messages and organized branches.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

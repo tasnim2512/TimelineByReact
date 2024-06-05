@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import Users from '../JsonFiles/users.json';
 import Posts from '../JsonFiles/posts.json';
 import Comments from '../JsonFiles/comments.json';
-import Card from '../Components/UI/Card';
+import Card from './UI/Card';
 import { ChevronLeftIcon } from '@heroicons/react/outline';
 import UserImage from '../Images/User.jpg';
 
