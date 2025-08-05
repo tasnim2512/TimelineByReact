@@ -9,7 +9,7 @@ In the project directory, you can run:
 After installing npm run
 ### `npm start`
 
-This will autometically load the page on [http://localhost:3000](http://localhost:3000) in browser
+This will autometically load the page on [http://localhost:3000](http://localhost:3000) in browser.
 ### Output
 ## Timeline Page
 ![alt text](./src/Images/Output1.png)
